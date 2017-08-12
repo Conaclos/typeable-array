@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "declaration": true,
+    "lib": ["es6"],
+    "module": "commonjs",
+    "removeComments": false,
+    "skipDefaultLibCheck": true,
+    "target": "es6",
+
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "strict": true,
+
+    "pretty": true
+  },
+  "include": [
+    "index.d.ts"
+  ]
+}
+

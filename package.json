@@ -1,0 +1,41 @@
+{
+  "name": "typeable-array",
+  "version": "1.0.0",
+  "description": "A common TypeScript interface for typed and untyped arrays.",
+  "author": "Victorien Elvinger (victorien.elvinger.fr)",
+  "main": "index.d.ts",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc --noEmit",
+    "lint": "tslint -p tsconfig.json && tslint -p examples/tsconfig.json",
+    "test": "tsc -p examples/ --noEmit && npm run lint",
+    "release": "standard-version --sign --",
+    "commitmsg": "validate-commit-msg",
+    "prepush": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conaclos/typeable-array.git"
+  },
+  "keywords": [
+    "typescript",
+    "typeable-array",
+    "array",
+    "typed-array",
+    "generic-programming",
+    "polymorphism"
+  ],
+  "license": "zlib",
+  "bugs": {
+    "url": "https://github.com/Conaclos/typeable-array/issues"
+  },
+  "homepage": "https://github.com/Conaclos/typeable-array#readme",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "standard-version": "^4.2.0",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
