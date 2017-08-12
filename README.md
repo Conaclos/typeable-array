@@ -2,8 +2,6 @@
 # Typeable array
 
 [![travis][travis-image]][travis-url]
-
-[![Standard Version][sv-image]][sv-url]
 [![NPM version][npm-image]][npm-url]
 
 `TypeableArray` provides a common TypeScript interface for `Array` and
@@ -11,24 +9,24 @@
 
 `ReadonlyTypeableArray` provides a readonly interface of `TypeableArray`.
 
-`TypeableArrayConstructor` provides a common interface fro constructors of
+`TypeableArrayConstructor` provides a common interface for constructors of
 `Array` and Typed arrays.
 
 All interfaces are fully generic, including `TypeableArrayConstructor`. This
- makes `TypeableArrayConstructor` more type-safe than the interfaces
- provided in TypeScript library.
+ makes `TypeableArrayConstructor` more type-safe than the provided interfaces
+ in TypeScript library.
 
 
 ## How to use
 
-If you use one of the prvided type in at least one exported interface,
- you have to place this package as production dependency.
+If you use one of the provided types in at least one exported interface,
+ you have to place this package as production dependency:
 
 ```bash
 npm install typeable-array
 ```
 
-Otherwise, you can place this package as a dev dependency.
+Otherwise, you can place this package as a dev dependency:
 
 ```bash
 npm install --save-dev typeable-array
@@ -59,10 +57,6 @@ Unless you explicitly state otherwise, any contribution intentionally submitted
 [travis-image]:
 https://img.shields.io/travis/Conaclos/typeable-rray/master.svg
 [travis-url]: https://travis-ci.org/Conaclos/typeable-array
-[sv-image]:
-https://img.shields.io/badge/release-standard%20version-brightgreen.svg?style=flat-square
-[sv-url]:
-https://github.com/conventional-changelog/standard-version
 [npm-image]:
 https://img.shields.io/npm/v/typeable-array.svg?style=flat-square
 [npm-url]:
