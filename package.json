@@ -1,7 +1,7 @@
 {
   "name": "typeable-array",
   "version": "1.0.0",
-  "description": "A common TypeScript interface for typed and untyped arrays.",
+  "description": "A common TypeScript interface for Array and Typed arrays.",
   "author": "Victorien Elvinger (victorien.elvinger.fr)",
   "main": "index.d.ts",
   "scripts": {
