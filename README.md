@@ -55,7 +55,7 @@ Unless you explicitly state otherwise, any contribution intentionally submitted
 
 
 [travis-image]:
-https://img.shields.io/travis/Conaclos/typeable-rray/master.svg
+https://img.shields.io/travis/Conaclos/typeable-array/master.svg
 [travis-url]: https://travis-ci.org/Conaclos/typeable-array
 [npm-image]:
 https://img.shields.io/npm/v/typeable-array.svg?style=flat-square
