@@ -33,9 +33,9 @@
   "types": "index.d.ts",
   "devDependencies": {
     "husky": "^0.14.3",
-    "standard-version": "^4.2.0",
-    "tslint": "^5.5.0",
-    "typescript": "^2.4.2",
+    "standard-version": "^4.3.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2",
     "validate-commit-msg": "^2.14.0"
   }
 }
