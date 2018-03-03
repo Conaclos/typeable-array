@@ -12,9 +12,16 @@
 `TypeableArrayConstructor` provides a common interface for constructors of
 `Array` and Typed arrays.
 
-All interfaces are fully generic, including `TypeableArrayConstructor`. This
- makes `TypeableArrayConstructor` more type-safe than the provided interfaces
- in TypeScript library.
+
+## Why Typeable Arrays?
+
+Typeable Arrays offer an easy way to write codes that handle both arrays and
+typed arrays. The client can then choose an array or a typed array accoring her
+ needs.
+
+Furthermore, `TypeableArrayConstructor` is fully generic. This makes
+ `TypeableArrayConstructor` more type-safe than the provided interfaces in
+ TypeScript library.
 
 
 ## How to use
